@@ -4,18 +4,7 @@ This repository contains a JavaScript snippet designed to reveal answers on Khan
 
 **Disclaimer:** Use this tool responsibly and ethically. Cheating undermines the learning process and can have negative consequences.
 
-## How It Works
-
-The script overrides the `window.fetch` function to intercept requests to the `/getAssessmentItem` endpoint. When a question is loaded, the script parses the JSON response, extracts the correct answers, and displays them in the browser's console. It also handles image rendering for graph-based questions.
-
-**Key Features:**
-
-* **Answer Extraction:** Extracts correct answers for various question types (multiple choice, free response, etc.).
-* **Image Rendering:** Displays images embedded in questions.
-* **Clean Console Output:** Presents answers in a formatted and readable manner.
-* **One-Time Header:** Displays a header message in the console only once.
-
-## Usage
+## Usage (way 1)
 
 1.  **Open Khan Academy:** Navigate to the assessment you want to use.
 2.  **Open Developer Tools:** Press F12 (or right-click and select "Inspect").
@@ -24,6 +13,11 @@ The script overrides the `window.fetch` function to intercept requests to the `/
 5.  **Press Enter:** Execute the script by pressing Enter.
 6.  **Start the Quiz/Assessment:** Begin the assessment. You might need to answer a question and then restart the quiz for the script to fully inject and function properly.
 7.  **View Answers:** The correct answers will be displayed in the console as you progress through the assessment.
+
+## Usage (way 2)
+1. Go to skypirate.org (my website)
+2. Follow intructions
+3. This method manually installs tampermoney (blocked by school). This way is a workaround to install on school devices
 
 **Important Notes:**
 
