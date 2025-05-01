@@ -33,9 +33,3 @@ The JavaScript code performs the following actions:
 * Overrides the `window.fetch` function to intercept API requests.
 * Parses the question data and extracts correct answers.
 * Displays the answers in the console.
-
-## Sources
-
-* [https://www.youtube.com/watch?v=151NXMk0a2c](https://www.youtube.com/watch?v=151NXMk0a2c)
-* [https://www.youtube.com/watch?v=2ZibeAyAy_o](https://www.youtube.com/watch?v=2ZibeAyAy_o)
-* [https://www.w3schools.com/](https://www.w3schools.com/)
