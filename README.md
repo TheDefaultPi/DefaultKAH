@@ -15,9 +15,7 @@ This repository contains a JavaScript snippet designed to reveal answers on Khan
 7.  **View Answers:** The correct answers will be displayed in the console as you progress through the assessment.
 
 ## Usage (way 2)
-1. Go to skypirate.org (my website)
-2. Follow intructions
-3. This method manually installs tampermoney (blocked by school). This way is a workaround to install on school devices
+1. Copy the script.js and put it into a tampermonkey file
 
 **Important Notes:**
 
