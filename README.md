@@ -22,12 +22,3 @@ This repository contains a JavaScript snippet designed to reveal answers on Khan
 * This script relies on the structure of Khan Academy's API, which may change in the future.
 * The effectiveness of the script may vary depending on the type of questions and assessments.
 * This script is meant for educational purposes only. Please use responsibly.
-
-## Code Explanation
-
-The JavaScript code performs the following actions:
-
-* Defines an `Answer` class to represent and display answers.
-* Overrides the `window.fetch` function to intercept API requests.
-* Parses the question data and extracts correct answers.
-* Displays the answers in the console.
